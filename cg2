@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+void main()
+{
+int gd=DETECT,gm;
+initgraph(&gd,&gm, "C:/TURBOC3/BGI,");
+circle(160,236,54);
+line(160,160,290,290);
+line(160,160,30,290);
+line(30,290,290,290);
+rectangle(400,160,600,290);
+line(400,160,600,290);
+line(600,160,400,290);
+line(500,160,500,290);
+line(400,225,600,225);
+ellipse(500,225,0,360,130,100);
+getch();
+closegraph()
